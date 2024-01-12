@@ -245,6 +245,155 @@ body {
 
 
     }
+    /*  */
+
+    /*  */
+
+/* FOOTER */
+footer{
+    background-color: var(--color-bleu);
+    margin-top: 18em;
+    padding-top: 40px;
+    position: relative;
+    
+
+}
+.footerblanc{
+    position: relative;
+    width: 90%;
+    background-color: var(--nav-bg-color);
+    margin-left: 12px;
+    margin-right: 0px;
+    border: none;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+.footer{
+    display: block;
+    justify-content: center;
+    padding-left: 20px;
+    padding-top: 50px;
+    line-height: 1.5;
+
+}
+
+footer .footer1{
+padding-left: 20px;
+text-align: center; 
+align-items: center;
+}
+
+.footer1 .icone3{
+
+}
+
+
+.footer2 h1{
+   font-size: 18px;
+   align-items: center;
+   margin-left: 105px;
+}
+.footer2 p{
+    
+    margin-top: 20px;
+    margin-left: 125px;
+    margin-right: 100px;
+}
+.footer3{
+    
+    margin-top: 10px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1px;
+}
+
+.footer3 input{
+    margin-top: 15px;
+    width: 300px;
+    height: 39px;
+    background-color:rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 7px;
+}
+.footer3 input::placeholder{
+    padding-left: 100px;
+    color: var(--color-black);
+}
+.footer3 h1{
+    font-size: 18px;
+    align-items: center;
+    margin-left: 105px;
+ }
+ .footer3 p{
+     
+     margin-top: 20px;
+     margin-left: 35px;
+   
+ }
+ 
+footer hr{
+    width: 90%;
+    margin-left:30px;
+}
+
+ .infos{
+    display: block;
+    padding-top: 20px;
+    margin-left: 60px;
+    width: 209px;
+
+}
+
+.infos .cop{
+    margin-right: 10px;
+    display: flex;
+}
+
+.infos .mail{
+    width: 300px;
+}
+
+.cop img{
+    margin-bottom: 10px;
+    margin-top: 0;
+    margin-right: 5px;
+    padding-bottom: 15px;
+    width: 15px;
+}
+
+.infos .right{
+    margin-left: 10px;
+    width: 283px;
+}
+.infos p{
+    margin-left: 10px;
+    width: 153px;
+}
+.infos div{
+    margin-left: 10px;
+    width: 100%;
+}
+.infos .co3{
+    width: 333px;
+}
+.infos .co{
+    padding: 12px 0;
+}
+.footer button{
+     padding: 8px 4px 8px 4px; 
+    margin-top: 7px;
+    margin-left: 0px;
+     margin-bottom: 40px; 
+    background-color: var(--btn-bg-corail);
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 48px;
+    color: var(--coler-black);
+    font-size: 17px;
+    font-weight: bold;
+} */
 
     /* FIN Mobile */
 
@@ -442,6 +591,7 @@ body {
         padding: 82px;
     }
 
+
     .value .contener .blok {
         width: 99%;
         display: grid;
@@ -476,6 +626,140 @@ body {
 
 
     }
+
+
+/* FOOTER */
+footer{
+    background-color: var(--color-bleu);
+    margin-top: 18em;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+    
+
+}
+.footerblanc{
+    position: relative;
+    width: 90%;
+    background-color: var(--nav-bg-color);
+    margin-left: 36px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-top: 50px;
+    line-height: 1.5;
+
+}
+
+footer .footer1{
+padding-left: 20px;
+text-align: center; 
+}
+
+.footer1 .icone3{
+    height: 30px;
+    width: 30px;
+}
+
+
+.footer2 h1{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 200px;
+}
+.footer2 p{
+    
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+.footer3{
+    
+    margin-top: 10px;
+    position: relative;
+    right: 72px;
+}
+
+.footer3 input{
+    margin-top: 15px;
+    width: 300px;
+    height: 39px;
+    background-color:rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 7px;
+}
+
+.footer3 input::placeholder{
+    padding-left: 20px;
+    color: var(--color-black);
+}
+ 
+footer hr{
+    width: 90%;
+    margin-left:30px;
+}
+
+ .infos{
+    display: flex;
+    padding-top: 20px;
+    margin-left: 20px;
+    width: 939;
+
+}
+
+.infos .cop{
+    margin-right: 10px;
+    display: flex;
+    width: 939;
+}
+
+.infos .mail{
+    width: 300px;
+}
+
+.cop img{
+    margin-bottom: 10px;
+    margin-top: 0;
+    margin-right: 5px;
+    padding-bottom: 15px;
+    width: 15px;
+}
+
+.infos .right{
+    margin-left: 10px;
+    width: 303px;
+}
+.infos p{
+    margin-left: 10px;
+    width: 153px;
+}
+.infos div{
+    margin-left: 10px;
+    width: 100%;
+}
+.infos .co3{
+    width: 333px;
+}
+.footer button{
+     padding: 8px 4px 8px 4px; 
+    margin-top: 7px;
+    margin-left: 0px;
+     margin-bottom: 40px; 
+    background-color: var(--btn-bg-corail);
+    border: none;
+    border-radius: 10px;
+    width: 170px;
+    height: 48px;
+    color: var(--color-white);
+    font-size: 17px;
+    font-weight: bold;
+}
 
 
 
