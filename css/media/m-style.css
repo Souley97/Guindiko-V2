@@ -1,40 +1,9 @@
-:root{
-    --coler-black:#000000;
-    --color-bleu:#80B0DF;
-    --color-white:#ffff;
-
-    --bg-color-blue-clair:#80B0DF33;
-    --bg-color-bordeaux:#6C131D;
-    --bg-input-email:#00000026;
-    --nav-bg-color:#FFFFFF;
-
- 
-    --btn-bg-bleu :#80B0DF;
-    --btn-bg-corail:#E98880;
-
-    /*FONT FAMILY*/
-
-    --font-primary: "Inter-Bold", Helvetica;
-
+/* Styliser pour les écrans de petite taille (mobiles) */
+@media screen and (max-width: 767px) {
+  /* Vos styles CSS pour les écrans mobiles vont ici */
 }
 
-/* header */
-* {
-    margin: 0;
-    padding: 0;
-
-}
-
-body {
-    padding: 0;
-    background: (--nav-bg-color);
-    margin: 0;
-
-
-
-}
-
- section {
-    margin: 4em 0;
-
+/* Styliser pour les écrans de taille moyenne (tablettes) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* Vos styles CSS pour les tablettes vont ici */
 }
