@@ -358,12 +358,12 @@
 
 .missions .cards{
     display: grid; 
-    grid-template-columns: 60% 60%;
+    grid-template-columns: 57% 57%;
     margin-top: 60px;
     padding-left: 20px;
     padding-right: 60px;
     margin-left: -10px; 
-    margin-right: 80px;  
+    margin-right: 90px;  
 }
 
 .missions .card{
@@ -398,6 +398,76 @@
     margin-bottom: 20px;
 }
     
+
+/* BLOG D'ARTICLES */
+
+.blog_articles{
+    width: 100%;
+    height: 1055px;
+  
+}
+
+.blog_article{
+    background-image: url("../../images/accueil/blog_articles.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1055px;
+
+}
+
+.blog_articles h1{
+    color: var(--color-bleu);
+    font-size: 45px;
+    padding-top: 54px;
+    padding-left: 274px;
+    padding-right: 168px;
+}
+
+.blog_articles hr{
+    width: 30.1%;
+    height: 2px;
+    background-color:var(--color-black);
+    margin-left: 300px;
+    margin-right: 168px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.blog_articles img{
+    color: #000000;
+}
+
+
+.blog_articles .texte_blog_article{
+    display: flex;
+    text-align: center;
+    color: var(--color-white);
+    width: 98%;
+    height: 75px;
+    margin-left: 10px;
+    margin-right: 158px;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: var(--font-primary);
+    padding-top: 153px;
+    margin-bottom: -10px;
+}
+
+.blog_articles .button{
+    padding: 8px 4px 8px 4px;
+    margin-top: 70px;
+    margin-left: 208px;
+    margin-right: 258px;
+    /* margin-bottom: 40px; */
+    background-color: var(--btn-bg-corail);
+    border: none;
+    width: 370px;
+    height: 48px;
+    color: var(--nav-bg-color);
+    font-size: 17px;
+    /* margin-bottom: 108px; */
+}
     
    
     
