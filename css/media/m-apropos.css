@@ -34,10 +34,6 @@ body {
 
 }
 
-section {
-    margin: 4em 0;
-
-}
 
 
 /* MOBILE */
@@ -58,10 +54,10 @@ section {
         justify-content: center;
         align-items: center;
     }
-    
+
     .header .hamburger-button {
         display: block;
-        padding:0 4px;
+        padding: 0 4px;
         right: 17px;
         top: 20px;
         position: absolute;
@@ -89,12 +85,109 @@ section {
         object-fit: cover;
     }
 
+
+    /* APROPOS */
+    .apropos {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .apropos .contener {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .apropos .contener .apropos-tab {
+
+        border: none;
+
+    }
+
+    .apropos .contener .titre {
+        justify-content: center;
+        font-size: 32px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: #80b0df;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+
+    .apropos .contener .img {
+        width: 10px;
+        height: 190px;
+        position: relative;
+        margin: 12px 99px;
+        padding: 0 73px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background: url(../../images/apropos/aporos-phone.png);
+
+
+    }
+
+    .apropos .contener .line {
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        display: none;
+
+    }
+
+    .apropos .contener .bienvenue-chez {
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        width: 310px;
+        padding: 0 40px;
+        font-family: "Inter-Light", Helvetica;
+        font-weight: 300;
+        color: #000000;
+        font-size: 13px;
+        letter-spacing: 0;
+        line-height: normal;
+
+    }
+
+    .apropos .contener .btn {
+
+        padding: 32px;
+        border-radius: 12px;
+
+    }
+
+    .apropos .contener .btn-contact {
+
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: #ffffff;
+        font-size: 14px;
+        letter-spacing: 0;
+        line-height: normal;
+        border: none;
+        padding: 12px;
+        border-radius: 8px;
+        text-decoration: none;
+        background: var(--btn-bg-corail);
+
+
+    }
+
+
+    /* FIN Mobile */
+
+
 }
 
- 
+/* FIN Mobile */
+
+
 
 /* TABLET */
-@media screen and (max-width: 1024px) {
+@media all and (min-width: 724px) and (max-width: 1024px) {
     .navbar {
         display: none;
     }
@@ -111,10 +204,10 @@ section {
         justify-content: center;
         align-items: center;
     }
-    
+
     .header .hamburger-button {
         display: block;
-        padding:0 4px;
+        padding: 0 4px;
         right: 17px;
         top: 20px;
         position: absolute;
@@ -148,6 +241,109 @@ section {
         left: 0;
         padding: 10px 1px;
         object-fit: cover;
+
     }
+
+    /* APROPOS */
+    /* TABLET */
+
+
+    .apropos .contener {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+
+
+    .apropos .contener .titre {
+        justify-content: center;
+        font-size: 32px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: #80b0df;
+        letter-spacing: 0;
+        line-height: normal;
+        padding: 82px;
+    }
+
+    .apropos .contener .blok {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+    }
+
+
+    .apropos .contener .img {
+        justify-content: center;
+        width: 378px;
+        height: 381px;
+        top: 0;
+        left: 0;
+        background: url(../../images/apropos/apropos.jpg);
+        margin: 0 40px;
+        background-repeat: no-repeat;
+    }
+
+
+
+    .apropos .contener .bienvenue-chez {
+        width: 343px;
+
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        font-family: "Inter-Light", Helvetica;
+        font-weight: 300;
+        color: #000000;
+        font-size: 15px;
+        letter-spacing: 0;
+        line-height: normal;
+        padding: 23px 0;
+        margin: 0 40px;
+
+
+
+    }
+
+    .apropos .contener .line {
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        display: none;
+
+    }
+
+    .apropos .contener .btn {
+
+        margin: -80px 44px;
+        border-radius: 12px;
+        position: absolute;
+        right: 100px;
+        width: 324px;
+        height: 50px;
+
+    }
+
+
+    .apropos .contener .btn-contact {
+       
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: #ffffff;
+        font-size: 14px;
+        letter-spacing: 0;
+        line-height: normal;
+        border: none;
+        padding: 18px;
+        border-radius: 8px;
+        text-decoration: none;
+        background: var(--btn-bg-corail);
+
+
+    }
+
 
 }
