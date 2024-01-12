@@ -230,13 +230,104 @@
 }
 
 
+/* NOS SERVICES */
+
+.nosservices h1{
+    /* width: 257px; */
+    margin-top: 70px;
+    margin-left: 108px;
+    margin-right: 100px;
+    height: 48px;
+    font-size: 40px;
+    color: var(--color-bleu);
+   text-align: center;
+}
+
+.nosservices hr{
+    margin-left: 300px;
+    margin-top: 2px;
+    width: 25%;
+    height: 4px;
+    background-color:var(--bg-color-bordeaux);}
+
+    .nosservices .mentorat{
+        display: flex;
+    }
+
+.nosservices .mentor{
+    background-color: var(--btn-bg-corail);
+    margin-top: 63px;
+    width: 380px;
+    height: 526px;
+}
+
+.nosservices .mentor:first-child{
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+.nosservices .image1{
+    background-image: url("../../images/accueil/service1.jpg");
+    width: 380px;
+    height: 314px;
+}
+.nosservices .image2{
+    background-image: url("../../images/accueil/service2.jpg");
+    width: 380px;
+    height: 314px;
+}
+
+.nosservices .etre_mentore{
+    height: 1000px;
+
+   
+}
+.nosservices .p1{
+    position: absolute;
+    background-color: var(--nav-bg-color);
+    border: 1px solid var(--color-black);
+    border-radius: 10Px;
+    padding: 10px;
+    padding-top: 28px;
+    padding-left: 108px;
+    margin-left: 20px;
+    margin-right: 163px;
+    margin-bottom: 67px;
+    margin-top: 7px;
+    padding-right: 109px;
+    padding-bottom: 29px;
+    font-size: 25px;
+    font-weight: bold; 
+    
+}
+
+.nosservices .p0{
+    font-size: 50px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.nosservices .p{
+    width: 100%;
+    font-size: 17px;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
 /* NOS MISSIONS */
 
 .missions{
     margin-top: 60px;
     width: 100%;
     height: 932px;
+    
+}
+.missions .missions_bleu{
     background-color: var(--bg-color-blue-clair);
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .missions h1{
@@ -259,6 +350,7 @@
 .missions .paragraphe_missions{
     width: 90%;
     text-align: center;
+    margin-bottom: 70px;
     padding-top: 24px;
     padding-left: 34px;
     padding-right: 168px;
@@ -277,7 +369,7 @@
 .missions .card{
     border: 2px solid var(--bg-color-bordeaux);
     margin-left: 10px;
-    padding-left: 10px;
+    padding-left: 50px;
     padding-right: 10px;
     padding-bottom: 40px;
     width: 90%;
@@ -292,7 +384,7 @@
     background-color: var(--bg-color-bordeaux);
     color: var(--nav-bg-color);
     width: 15%;
-    margin-left: 70px;
+    margin-left: 120px;
     margin-top: 20px;
     margin-bottom: 30px;
     border-radius: 10px;
