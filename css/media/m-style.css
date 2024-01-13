@@ -331,7 +331,7 @@
     
 }
 .missions .missions_bleu{
-    background-color: var(--bg-color-blue-clair);
+    background-color: var(--color-bleu);
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -941,6 +941,92 @@ footer hr{
     
 }
 
+
+/* NOS MISSIONS */
+
+.missions{
+    margin-top: 60px;
+    width: 100%;
+    height: 2088px;
+    
+}
+.missions .missions_bleu{
+    background-color: var(--color-bleu);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.missions h1{
+    color: var(--color-bleu);
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 54px;
+    padding-left: 140px;
+    padding-right: 150px;
+}
+
+.missions hr{
+    width: 24.1%;
+    height: 2px;
+    background-color:var(--bg-color-bordeaux);
+    margin-left: 148px;
+    margin-right: 168px;
+
+}
+.missions .paragraphe_missions{
+    width: 302px;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 70px;
+    padding-top: 24px;
+    padding-left: 44px;
+    padding-right: 168px;
+}
+
+.missions .cards{
+    /* display: grid; 
+    grid-template-columns: 57% 57%; */
+    margin-top: 60px;
+    padding-left: 20px;
+    /* padding-right: 60px; */
+    margin-left: 10px; 
+    margin-right: 90px;  
+}
+
+.missions .card{
+    background-color: var(--color-white);
+    border: 2px solid var(--bg-color-bordeaux);
+    margin-left: 10px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    width: 255px;
+    height: 262px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    /* padding: 2px; */
+}
+
+.missions .numero{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-color: var(--bg-color-bordeaux);
+    color: var(--nav-bg-color);
+    width: 15%;
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+.missions .card p{
+    font-size: 15px;
+    width: 255px;
+}
+
+.missions .cards:last-child{
+    margin-bottom: 10px;
+}
 
 
 
