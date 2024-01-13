@@ -853,6 +853,97 @@ footer hr{
     height: 156px;
 }
 
+/* NOS SERVICES */
+
+.nosservices h1{
+    width: 108px;
+    margin-top: 70px;
+    margin-left: 158px;
+    margin-right: 100px;
+    height: 20px;
+    font-weight: 700px;
+    font-size: 15px;
+    color: var(--color-bleu);
+   /* text-align: center; */
+}
+
+.nosservices hr{
+    margin-left: 170px;
+    width: 15%;
+    height: 1px;
+    background-color:var(--bg-color-bordeaux);
+}
+.nosservices .p{
+        width: 357px;
+        font-size: 13px;
+        font-weight: 300;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+
+    .nosservices .mentorat{
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+
+.nosservices .mentor{
+    background-color: var(--btn-bg-corail);
+    margin-top: 63px;
+    width: 339px;
+    height: 426px;
+}
+
+.nosservices .mentor{
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+.nosservices .mentor{
+    margin-right: 10px;
+    margin-left: 15px;
+
+}
+
+.nosservices .image1{
+    background-image: url("../../images/accueil/service_assistance.jpg");
+    width: 339px;
+    height: 280px;
+}
+.nosservices .image2{
+    background-image: url("../../images/accueil/service_recadrement.jpg");
+    width: 339px;
+    height: 280px;
+}
+
+.etre_mentore{
+    margin-top: 40px;
+    border: none;
+    border-radius: 10px;
+}
+
+.nosservices .p0{
+    font-size: 20px;
+    margin-left: 115px;
+    margin-top: 10px;
+}
+
+.nosservices .p1{
+    position: absolute;
+    background-color: var(--nav-bg-color);
+    border: 1px solid var(--color-black);
+    border-radius: 15px;
+    padding: 8px 29px 9px 28px;
+    margin: 7px 123px 67px 90px;
+    font-size: 20px;
+    font-weight: bold; 
+    
+}
+
+
+
+
 
 
 
