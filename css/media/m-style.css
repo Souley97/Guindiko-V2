@@ -947,7 +947,7 @@ footer hr{
 .missions{
     margin-top: 60px;
     width: 100%;
-    height: 2088px;
+    height: 1700px;
     
 }
 .missions .missions_bleu{
@@ -1028,6 +1028,88 @@ footer hr{
     margin-bottom: 10px;
 }
 
+/* BLOG D'ARTICLES */
+
+.blog_articles{
+    width: 100%;
+    height: 490px;
+  
+}
+
+.blog_articles span{
+    display: none;
+}
+
+.blog_article{
+    background-image: url("../../images/accueil/blog_articles.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 493px;
+    height: 587px;
+
+}
+
+.blog_articles h1{
+    color: var(--color-bleu);
+    font-size: 25px;
+    padding-top: 14px;
+    padding-left: 174px;
+    padding-right: 168px;
+}
+
+.blog_articles hr{
+    width: 13.1%;
+    height: 2px;
+    background-color:var(--color-black);
+    margin-left: 175px;
+    margin-right: 168px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.blog_articles img{
+    color: #000000;
+}
+
+
+.blog_articles .texte_blog_article{
+    display: flex;
+    text-align: center;
+    color: var(--color-white);
+    width: 216px;
+    height: 117px;
+    margin-left: 69px;
+    margin-right: 68px;
+    font-size: 11px;
+    font-weight: 400;
+    font-family: var(--font-primary);
+    padding-top: 33px;
+    margin-bottom: 11px;
+}
+
+.blog_articles .texte_blog_article{
+    img{
+        display: none;
+    }
+}
+
+
+.blog_articles .button{
+    padding: 4px;
+    /* margin-top: -937px; */
+    margin-left: 73px;
+    margin-right: 100px;
+    margin-bottom: 840px;
+    margin-bottom: 50px;
+    background-color: var(--btn-bg-corail);
+    border: none;
+    border-radius: 10px;
+    width: 210px;
+    height: 41px;
+    color: var(--nav-bg-color);
+    font-size: 17px;
+    /* margin-bottom: 108px; */
+}
 
 
 
