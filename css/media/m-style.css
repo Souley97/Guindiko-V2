@@ -781,6 +781,80 @@ footer hr{
     margin-left: 120px;
   }
 
+  /* SECTION COMMENT CA MARCHE */
+
+.commentcamarche{
+    width: 1024px;
+    height: auto;
+    margin-top: 63px;
+    margin-left: 120px;
+    margin-right: 10px;
+}
+
+
+.commentcamarche h1{
+    /* width: 257px; */
+    margin-top: 3px;
+    /* margin-left: -348px; */
+    margin-right: 833px;
+    height: 28px;
+    font-size: 20px;
+    color: var(--color-bleu);
+   text-align: center;
+}
+
+.commentcamarche hr{
+    margin-left:16px;
+    margin-top: 1px;
+    width: 15%;
+    height: 2px;
+    background-color:var(--bg-color-bordeaux);}
+
+.commentcamarche .direction{
+    display: flex;
+    flex-direction: column;
+}
+
+.commentcamarche .direction p{
+    text-align: center;
+    width: 230px;
+    height: 49px;
+    font-size:11px;
+    font-weight: 300;
+    margin-left: -40px;
+}
+
+.commentcamarche .contenu p{
+    text-align: center;
+    width: 230px;
+    height: 49px;
+    font-size:11px;
+    font-weight: 300;
+    margin-left: -40px;
+}
+
+/* .direction .boussole{
+    margin-right: 56px;
+    margin-bottom: 156px;
+} */
+
+.commentcamarche .p{
+    width: 80%;
+    margin-left: -95px;
+    margin-right: 86px;
+    margin-top: 22px;
+    margin-bottom: 40px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.commentcamarche img{
+    width: 156px;
+    height: 156px;
+}
+
+
+
 
     
 }
