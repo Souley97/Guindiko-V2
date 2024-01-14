@@ -112,7 +112,19 @@
       }
     
       .burger-menu {
-        display: block; /* Afficher le menu burger */
+        display: block;
+        color: var(--color-bleu); /* Couleur du caractère burger */
+      }
+      
+      .burger-menu:hover {
+        cursor: pointer; /* Change le curseur au survol pour indiquer que c'est cliquable */
+      }
+      
+      /* Style pour les lignes horizontales du menu burger */
+      .burger-menu::before,
+      .burger-menu::after,
+      .burger-menu {
+        color: var(--color-bleu); /* Couleur des lignes du menu burger */
       }
     
 
@@ -233,7 +245,7 @@ label{
 
 .maps1{
     margin-top: 30px;
-    background-image: url("maps_localisation.jpg");
+    background-image: url("../../images/contact/maps_localisation.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     /* width: 752px; */
@@ -437,7 +449,7 @@ footer hr{
       .logo {
           width: 230px;
           height: 123px;
-          margin-top: 110px;
+          margin-top:10px;
       
       }
       
@@ -613,7 +625,7 @@ label{
 
 .maps1{
     margin-top: 30px;
-    background-image: url("maps_localisation.jpg");
+    background-image: url("../../images/contact/maps_localisation.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     /* width: 752px; */
@@ -748,6 +760,5 @@ footer hr{
 }
 
 }
-
    
     
