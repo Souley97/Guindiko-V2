@@ -377,6 +377,26 @@ label{
     background-color: rgba(233, 136, 128, 1);
 }
 
+
+
+/* MAPS LOCALISATION */
+
+.maps{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.maps1{
+    margin-top: 30px;
+    background-image: url("maps_localisation.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* width: 752px; */
+    height: 200px;
+}
+
+
+
       }
 
 
