@@ -632,6 +632,7 @@ footer hr{
         padding: 0;
       
       }
+
       
       body {
           padding: 0;
@@ -643,6 +644,30 @@ footer hr{
       section{
         margin: 2% 0 ;
     }
+
+    .nav {
+        display: none; /* Masquer la navigation régulière */
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+      }
+    
+      .nav.show {
+        display: flex;
+      }
+    
+      .nav a {
+        padding: 15px;
+        display: block;
+      }
+    
+      .burger-menu {
+        display: block; /* Afficher le menu burger */
+      }
+    
     
     /* HEADER */
       
@@ -770,7 +795,7 @@ footer hr{
 
   .bouton{
     padding: 2px;
-    /* margin-top: -100px; */
+    margin-top: 40px;
     background-color:var(--bg-color-bordeaux);
     border: none;
     border-radius: 20px;
