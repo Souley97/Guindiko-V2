@@ -112,6 +112,32 @@
 </div>
 </div>
   </footer>
-        
+
+  <script>
+    function toggleMenu() {
+  const nav = document.querySelector('.nav');
+  nav.classList.toggle('show');
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+      // Sélectionnez le menu burger et le corps du document
+      var burgerMenu = document.querySelector('.burger-menu');
+      var nav=document.querySelector('nav');
+      var body = document.body;
+
+      // Affiche ou masque le menu burger lorsque l'utilisateur clique sur le logo
+      burgerMenu.addEventListener('click', function (event) {
+        event.stopPropagation(); // Empêche la propagation du clic au corps du document
+      });
+
+      // Ajoute un écouteur de clic au corps du document
+      body.addEventListener('click', function () {
+        // burgerMenu.style.display = 'none'; // Masque le menu burger en dehors du clic sur le menu
+        nav.style.display='none';
+    });
+    });
+</script>
+
+
 </body>
 </html>
