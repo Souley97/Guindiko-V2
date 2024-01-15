@@ -38,3 +38,153 @@ body {
     margin: 4em 0;
 
 }
+* header */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+
+
+}
+
+ section {
+    margin: 4em 0;
+
+}
+
+
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 1047px) {
+
+    /* debut header */
+    header {
+        position: relative;
+
+
+        height: 81px;
+        background: #FFF;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        align-items: center;
+
+        color: #FFF;
+        font-family: var(--font-primary);
+        font-size: 0.9375rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 5rem;
+        /* 533.333% */
+        border: solid 0.3px #eeecec;
+    }
+
+    .logo img {
+
+        flex-shrink: 0;
+
+        margin-top: 2rem;
+    }
+
+    .trois-tirets {
+        justify-content: center;
+        width: 3rem;
+        height: 1.43769rem;
+        flex-shrink: 0;
+        margin-right: 4rem;
+        cursor: pointer;
+        display: none;
+
+    }
+
+    .trois-tirets span {
+        display: block;
+        width: 35px;
+
+        height: 3px;
+        background-color: var(--btn-bg-bleu);
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+
+    input {
+        visibility: hidden;
+    }
+
+    .nav-list a:hover {
+        color: #80B0DF;
+
+    }
+
+
+    #menu-toggle:checked+.trois-tirets span:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    #menu-toggle:checked+.trois-tirets span:nth-child(2) {
+        opacity: 0;
+    }
+
+    #menu-toggle:checked+.trois-tirets span:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+
+    /* Styles pour la liste de navigation */
+    .nav-list {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        right: 0;
+
+    }
+
+    .nav-list a {
+        text-decoration: none;
+        color: black;
+        margin: 0 15px;
+    }
+
+    .social-media img {
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+
+
+    .trois-tirets {
+        display: block;
+        margin-left: 35rem;
+    }
+
+    .nav-list {
+        color: black;
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right:  0;
+        width: 300px;   
+        background-color: white;
+        text-align: center;
+        padding-top: 1rem;
+        z-index: 2;
+    }
+
+    #menu-toggle:checked+.trois-tirets+.nav-list {
+        display: flex;
+
+    }
+
+    .nav-list a {
+        margin: 5px;
+        padding: 0;
+    }
+
+    /* fin header */
