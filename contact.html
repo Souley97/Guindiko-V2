@@ -9,7 +9,135 @@
     
 </head>
 <body>
+    <header class="header">
+        <div class="contener">
 
-        
+            <div class="logo">
+                <img src="images/logo.svg" alt="logo de Guindiko">
+            </div>
+
+            <div class="navbar">
+                <nav class="nav">
+                    <div class="link">
+                        <a href="index.html">Accueil</a>
+                        <a href="service.html">Services</a>
+                        <a href="comment-c-m.html">Comment ça marche ?</a>
+                        <a href="blog.html">Blog</a>
+                        <a  href="#"><span>Contact</span></a>
+                    </div>
+                </nav>
+            </div>
+
+        </div>
+        <div class="burger-menu" onclick="toggleMenu()">&#9776;
+        </div>
+
+
+    </header>
+
+    <section class="contact">
+        <h1>
+            Contactez-nous
+        </h1>
+        <div class="infos">
+        <div class="tel">
+        <img src="./images/contact/telephone.svg" alt="icone de telephone">
+        <p>(+221) 76 947 50 73</p>
+        </div>
+        <div class="mail">
+            <img src="./images/contact/mail.svg" alt="icone email">
+            <p>contact@guindiko.com</p>
+        </div>
+        <div class="localisation">
+            <img src="./images/contact/localisation.svg" alt="image localisation">
+            <p>Maristes</p>
+        </div>
+    </div>
+    </section>
+
+    <section class="formulaire">
+        <img src="./images/contact/image_formulaire.jpg" alt="image formulaire">
+        <label>Prénom Et nom</label>
+        <input type="text">
+        <label>Adresse email</label>
+        <input type="email">
+        <label>Téléphone</label>
+        <input type="text">
+        <label>Message</label>
+        <textarea cols="30" rows="10"></textarea>
+        <input type="submit" value="Envoyer">
+    </section>
+
+    
+<section class="maps">
+    <h1>Localisation</h1>
+    <div class="maps1"></div>
+</section>
+
+<footer>
+    <div class="footerblanc">
+    <section class="footer">
+    <div class="footer1">
+        <img src="./images/contact/logo.jpg" alt="logo de Guindiko">
+    <p>“Kaay defar sa ëllëg !”</p>
+    <p>Suivez-nous sur</p>
+    <img src="./images/contact/linkedin.svg" alt="logo de linkedin" class="icone3">
+    <img src="images/contact/facebook.svg" alt="logo de facebook" class="icone3">
+    <img src="images/contact/instagram.svg" alt="logo de instagram" class="icone3">
+    <img src="images/contact/twitter.svg" alt="logo de twitter" class="icone3">
+</div>
+<div class="footer2">
+    <h1>Lien rapide</h1>
+    <p>Accueil A Propos Service Blog Contact</p>
+</div>
+<div class="footer3">
+    <h1>Entrer en contact</h1>
+    <p>Abonnez vous à notre newsletter pour recevoir nos dernières. <br> Mettre à jour les nouvelles</p>
+    <input type="email" placeholder="Entrer votre mail">
+    <button class="button">S'Inscrire</button>
+</div>
+</section>
+<hr>
+<div class="infos">
+<div class="cop">
+    <img src="./images/contact/c.svg" alt="logo de copyrighting">
+<p>Copyright 2023 Guindiko. Tous droits réservés</p>
+</div>
+<div>
+<p>(+221) 76 947 50 73</p>
+</div>
+<div>
+<p>Contact@guindiko.com</p>
+</div>
+</div>
+</div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+  const nav = document.querySelector('.nav');
+  nav.classList.toggle('show');
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+      // Sélectionnez le menu burger et le corps du document
+      var burgerMenu = document.querySelector('.burger-menu');
+      var nav=document.querySelector('nav');
+      var body = document.body;
+
+      // Affiche ou masque le menu burger lorsque l'utilisateur clique sur le logo
+      burgerMenu.addEventListener('click', function (event) {
+        event.stopPropagation(); // Empêche la propagation du clic au corps du document
+      });
+
+      // Ajoute un écouteur de clic au corps du document
+      body.addEventListener('click', function () {
+        // burgerMenu.style.display = 'none'; // Masque le menu burger en dehors du clic sur le menu
+        nav.style.display='none';
+    });
+    });
+</script>
+
+
 </body>
 </html>

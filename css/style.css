@@ -1,5 +1,6 @@
+/*-- O U M Y--*/
 :root{
-    --coler-black:#000000;
+    --color-black:#000000;
     --color-bleu:#80B0DF;
     --color-white:#ffff;
 
@@ -14,24 +15,29 @@
 
     /*FONT FAMILY*/
 
-    --font-primary: "Inter-Bold", Helvetica;
+    --font-primary: Inter;
 
 }
 
-/* header */
-* {
+*{
     margin: 0;
     padding: 0;
+  
+  }
+  
+  body {
+      padding: 0;
+      background: var(--nav-bg-color);
+      overflow-x: hidden;
+      font-family: var(--font-primary);
+  }
 
+  section{
+    margin: 1% 0 ;
 }
 
-body {
-    padding: 0;
-    background: (--nav-bg-color);
-    margin: 0;
-}
-
- section {
-    margin: 4em 0;
-
-}
+.burger-menu {
+    font-size: 24px;
+    cursor: pointer;
+    display: none; /* Le menu burger est masqué par défaut */
+  }
