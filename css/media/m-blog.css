@@ -188,3 +188,16 @@ body {
     }
 
     /* fin header */
+/* debut bannier */
+
+.bannier img {
+    position: relative;
+    padding-top: 109px;
+
+    padding-left: 71px;
+    padding-right: 72px;
+    width: 670px;
+    height: 130px;
+}
+
+/* fin bannier */
