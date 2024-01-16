@@ -8,6 +8,117 @@
     <link rel="stylesheet" href="css/media/m-service.css"> 
 </head>
 <body>
-  
+    <header class="header">
+        <div class="conteneur">
+            <div class="logo">
+                <img src="images/service/logo.svg" alt=""> 
+            </div>
+            <div class="navbar">
+                <nav class="nav">
+                    <div class="link">
+                        <a href="index.html">Accueil</a>
+                        <a href="service.html">Services</a>
+                        <a href="a-propos.html">A propos</a>
+                        <a href="blog.html">Blog</a>
+                        <a href="contact.html" class="contact">Contact</a>
+                    </div>
+                    <img class="menu_burger" src="images/service/menu_burger.svg" alt="menu_hamburger">
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="banière">
+        <h1 class="titre_banière">Nos Services</h1>
+        <div class="trait"></div>
+        <p class="paragraphe_banière">Plateforme multifonctionnelle, nous
+          proposons  un modèle axé sur la réussite collective. 
+          Facilitateurs, nous<br> offrons des services divers mais adaptés,
+          des contenus  réfléchis et souples, des expériences
+           inédites et<br> stimulantes.</p>
+    </section>
+    <section class="assistance">
+        <div class="boxe1"></div>
+        <div class="description_boxe1">
+            <h1 class="titre">Assistance</h1>
+            <p class="paragraphe">Pour les jeunes diplômés dans leur recherche 
+                d'emploi. Mettre à leur<br> disposition des mentors qualifiés qui les
+                poussent vers l'atteinte de leurs<br> objectifs. Proposer des
+                opportunités uniques compatibles avec les<br> formations reçues.</p>
+            <button class="button"><span>Lire Plus</span></button>
+        </div>
+    </section>
+    <section class="aide">
+        <div class="boxe2"></div>
+        <div class="description_boxe2">
+            <h1 class="titre">Aide</h1>
+            <p class="paragraphe">Aux professionnelles dans leur projet de
+                transition. Fournir l'assistance morale<br> et l'accompagnement
+                technique nécessaire pour qu'il parvienne à sauter le pas<br> et
+                réussir dans leur entreprise.</p>
+            <button class="button"><span>Lire Plus</span></button>
+        </div>
+    </section>
+    <section class="orientation">
+        <div class="boxe3"></div>
+        <div class="description_boxe3">
+            <h1 class="titre">Orientation</h1>
+            <p class="paragraphe">Des nouveaux bacheliers dans des délais.
+                 réduits et dans des formations à<br> moindre coût. Préparer le
+                terrain pour parer contre les défaillances du<br> système.
+                Désengorger les universités du surplus d'étudiants.</p>
+            <button class="button"><span>Lire Plus</span></button>
+        </div>
+    </section>
+    <section class="encadrement">
+        <div class="boxe4"></div>
+        <div class="description_boxe4">
+            <h1 class="titre">Encadrement</h1>
+            <p class="paragraphe">Des élèves dans la recherche de leur voie.
+                Susciter leur intérêt très tôt aux<br> métiers qu'ils ont choisi,
+                les mettre s'il le faut surdes piste plus<br> prometteuses.
+                Parvenir à les maintenir a l'école aussi loin que possible.</p>
+            <button class="button"><span>Lire Plus</span></button>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="conteneur">
+            <div class="contenant1">
+                <img class="logo" src="images/logo.svg" alt="">
+                <div class="reseau_social">
+                    <img class="icon1" src="images/linkdln.svg" alt="">
+                    <img class="icon2" src="images/facebook.svg" alt="">
+                    <img class="icon3" src="images/instagramme.svg" alt="">
+                    <img class="icon4" src="images/twitter.svg" alt="">
+                </div>
+            </div>
+            <div class="contenant2">
+                <h6 class="lien">Lien rapide</h6>
+                <p>Accueil<br><br>A propos<br><br>Services<br><br>
+                Blog<br><br>Contact</p>
+            </div>
+            <div class="contenant3">
+                <h6 class="contactez">Entrer en contact</h6>
+                <p>Abonnez vous à notre newsletter pour recevoir nos<br>
+                    dernières.<br> Mettre à jour les nouvelles</p>
+                <button class="email"><span>Entrer votre Email</span></button>
+                <button class="inscription"><span>S'inscrire</span></button>
+            </div>
+            <div class="trait_footer"></div>
+            <div class="adresse">
+                <img class="copy" src="images/copyrith.svg" alt="">
+                <p class="paragraphe1">Copyright 2023 Guindiko. Tous droits réservés
+                </p>
+                <p class="paragraphe2">(+221) 76 947 50 73</p>
+                <p class="paragraphe3">Contact@guindiko.com</p>
+            </div>
+        </div>
+    </footer>
 </body>
+<script>
+    const menu_burger = document.querySelector(".menu_burger")
+    const link = document.querySelector(".link")
+    menu_burger.addEventListener('click',()=>{
+    link.classList.toggle('mobile-menu')
+    })
+</script>
 </html>
