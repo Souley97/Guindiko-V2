@@ -519,6 +519,7 @@ footer .conteneur .reseau_social{
 
     
 }
+/*Media mobile*/
 @media screen and (max-width:767px){
     .header .navbar .menu_burger{
         display: block;
@@ -549,6 +550,45 @@ footer .conteneur .reseau_social{
         
     }
     .header .navbar .link.mobile-menu{
-        margin-left: 500px;
+        margin-left: 200px;
+    }
+    /*------------------------------------*/
+    /*Section Banière*/
+    .banière{
+        width: 100%;
+        height: 300px;
+        background: #FFF;
+        text-align: center;
+    
+    }
+    .titre_banière{
+        color: #80B0DF;
+        font-family: Inter;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 48px;
+        margin-bottom: 3px;
+        text-align: center;
+    }
+    .trait{
+        width: 100px;
+        height: 2px;
+        background: #6C131D;
+        margin-left: 150px;
+        margin-top: 3px;
+        margin-bottom: 47px;
+    }
+    .paragraphe_banière{
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-top: 44px;
+        margin-bottom: 80px;
     }
 }
