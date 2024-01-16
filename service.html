@@ -8,6 +8,31 @@
     <link rel="stylesheet" href="css/media/m-service.css"> 
 </head>
 <body>
-  
+    <header class="header">
+        <div class="conteneur">
+            <div class="logo">
+                <img src="images/service/logo.svg" alt=""> 
+            </div>
+            <div class="navbar">
+                <nav class="nav">
+                    <div class="link">
+                        <a href="#">Accueil</a>
+                        <a href="#">Services</a>
+                        <a href="#">A propos</a>
+                        <a href="#">Blog</a>
+                        <a href="#" class="contact">Contact</a>
+                    </div>
+                    <img class="menu_burger" src="images/service/menu_burger.svg" alt="menu_hamburger">
+                </nav>
+            </div>
+        </div>
+    </header>
 </body>
+<script>
+    const menu_burger = document.querySelector(".menu_burger")
+    const link = document.querySelector(".link")
+    menu_burger.addEventListener('click',()=>{
+    link.classList.toggle('mobile-menu')
+    })
+</script>
 </html>
