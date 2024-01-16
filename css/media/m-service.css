@@ -73,4 +73,43 @@ body {
     .header .navbar .link.mobile-menu{
         margin-left: 500px;
     }
+    /*Section Banière*/
+.banière{
+    width: 100%;
+    height: 300px;
+    background: #FFF;
+    text-align: center;
+
+}
+.titre_banière{
+    color: #80B0DF;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-block;
+    margin-top: 123px;
+    margin-bottom: 10px;
+}
+.trait{
+    width: 100px;
+    height: 2px;
+    background: #6C131D;
+    margin-left: 365px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.paragraphe_banière{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 77px;
+}
+/*------------------------------------------*/
 }
