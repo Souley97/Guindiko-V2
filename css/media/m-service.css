@@ -112,4 +112,63 @@ body {
     margin-bottom: 77px;
 }
 /*------------------------------------------*/
+/*Section Assistance*/
+.assistance{
+    width: 95%;
+    height: 260px; 
+    background-color: #F2F7FC;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 14px;
+}
+.boxe1{
+    width: 230px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url(../..git/images/service/assistance.jpg), rgba(211, 211, 211, 0.286) 50% / cover no-repeat;
+    margin-top:13px;
+    margin-left: 40px;
+}
+.description_boxe1{
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.description_boxe1 .titre{
+    color: #000;
+    font-family: Inter;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 13px;
+}
+.description_boxe1 .paragraphe{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 20px;
+}
+.description_boxe1 .button{
+    width: 120px;
+    height: 30px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 10px;
+    background: #E98880;
+    margin-top: 45px;
+}
+.description_boxe1 .button span{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/*----------------------------------------------------------*/
+
 }
