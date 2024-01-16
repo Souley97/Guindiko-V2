@@ -229,4 +229,63 @@ body {
     line-height: normal;
 }
 /*----------------------------------------------------------*/
+/*Section Orientation*/
+.orientation{
+    width: 95%;
+    height: 260px; 
+    background-color: #F2F7FC;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 14px;
+}
+.boxe3{
+    width: 230px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url(../../images/service/orientation.jpg), lightgray 50% / cover no-repeat;
+    margin-top:13px;
+    margin-left: 40px;
+}
+.description_boxe3{
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.description_boxe3 .titre{
+    color: #000;
+    font-family: Inter;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 13px;
+}
+.description_boxe3 .paragraphe{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 20px;
+}
+.description_boxe3 .button{
+    width: 120px;
+    height: 30px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 10px;
+    background: #E98880;
+    margin-top: 45px;
+}
+.description_boxe3 .button span{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/*----------------------------------------------------------*/
+
 }
