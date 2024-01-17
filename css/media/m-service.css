@@ -445,7 +445,6 @@ footer .conteneur .reseau_social{
 }
 .footer .conteneur .contenant3 .email{
     width: 25%;
-
     height: 40px;
     flex-shrink: 0;
     border-radius: 10px;
@@ -519,6 +518,7 @@ footer .conteneur .reseau_social{
 
     
 }
+/*Media mobile*/
 @media screen and (max-width:767px){
     .header .navbar .menu_burger{
         display: block;
@@ -549,6 +549,442 @@ footer .conteneur .reseau_social{
         
     }
     .header .navbar .link.mobile-menu{
-        margin-left: 500px;
+        margin-left: 200px;
     }
+    /*------------------------------------*/
+    /*Section Banière*/
+    .banière{
+        width: 100%;
+        background: #FFF;
+        text-align: center;
+    
+    }
+    .titre_banière{
+        color: #80B0DF;
+        font-family: Inter;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 48px;
+        margin-bottom: 3px;
+        text-align: center;
+    }
+    .trait{
+        width: 100px;
+        height: 2px;
+        background: #6C131D;
+        margin-left: 150px;
+        margin-top: 3px;
+        margin-bottom: 47px;
+    }
+    .paragraphe_banière{
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-top: 44px;
+    }
+    /*------------------------------------------*/
+    /*Section Assistance*/
+.assistance{
+    width: 80%;
+    display: block;
+}
+.boxe1{
+    width: 240px;
+    height: 225px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url(../../images/service/assistance.jpg), lightgray 50% / cover no-repeat;
+    margin-top:3px;
+    margin-left: 80px;
+    margin-bottom: 15px;
+}
+
+.description_boxe1 .titre{
+    color: #000;
+    font-family: Inknut Antiqua;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+    margin-bottom: 2px;
+    margin-left: 150px;
+}
+.description_boxe1 .paragraphe{
+    width: 260px;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.description_boxe1 .button{
+    width: 90px;
+    height: 25px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 12px;
+    background: #E98880;
+    margin-top: 45px;
+    margin-left: 150px;
+}
+.description_boxe1 .button span{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+/*----------------------------------------------------------*/
+/*Section Aide*/
+.aide{
+    width: 80%;
+    display: block;
+}
+.boxe2{
+    width: 240px;
+    height: 225px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url(../../images/service/aide.jpg), lightgray 50% / cover no-repeat;
+    margin-top:3px;
+    margin-left: 80px;
+    margin-bottom: 15px;
+}
+
+.description_boxe2 .titre{
+    color: #000;
+    font-family: Inknut Antiqua;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+    margin-bottom: 2px;
+    margin-left: 150px;
+}
+.description_boxe2 .paragraphe{
+    width: 260px;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.description_boxe2 .button{
+    width: 90px;
+    height: 25px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 12px;
+    background: #E98880;
+    margin-top: 45px;
+    margin-left: 150px;
+}
+.description_boxe2 .button span{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+/*----------------------------------------------------------*/
+/*Section Orientation*/
+.orientation{
+    width: 80%;
+    display: block;
+}
+.boxe3{
+    width: 240px;
+    height: 225px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url(../../images/service/orientation.jpg), lightgray 50% / cover no-repeat;
+    margin-top:3px;
+    margin-left: 80px;
+    margin-bottom: 15px;
+}
+
+.description_boxe3 .titre{
+    color: #000;
+    font-family: Inknut Antiqua;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+    margin-bottom: 2px;
+    margin-left: 150px;
+}
+.description_boxe3 .paragraphe{
+    width: 260px;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.description_boxe3 .button{
+    width: 90px;
+    height: 25px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 12px;
+    background: #E98880;
+    margin-top: 45px;
+    margin-left: 150px;
+}
+.description_boxe3 .button span{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+/*----------------------------------------------------------*/
+/*Section Encadrement*/
+.encadrement{
+    width: 80%;
+    display: block;
+}
+.boxe4{
+    width: 240px;
+    height: 225px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url(../../images/service/encadrement.jpg), lightgray 50% / cover no-repeat;
+    margin-top:3px;
+    margin-left: 80px;
+    margin-bottom: 15px;
+    background-position: top;
+    background-position: 70%;
+}
+
+.description_boxe4 .titre{
+    color: #000;
+    font-family: Inknut Antiqua;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+    margin-bottom: 2px;
+    margin-left: 150px;
+}
+.description_boxe4 .paragraphe{
+    width: 260px;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.description_boxe4 .button{
+    width: 90px;
+    height: 25px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 12px;
+    background: #E98880;
+    margin-top: 45px;
+    margin-left: 150px;
+    margin-bottom: 60px;
+}
+.description_boxe4 .button span{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+/*----------------------------------------------------------*/
+/*Section Footer*/
+.footer{
+    width: 100%;
+    height: 1165px;
+    flex-shrink: 0;
+    background: #80B0DF;
+}
+.footer .conteneur{
+    width: 94%;
+    height: 1066px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    margin-left: 12px;
+    padding-bottom: 39px;
+    margin-top: 30px;
+    display: inline-block;
+}
+.footer .conteneur .logo{
+    width: 200px;
+    height: 110x;
+    flex-shrink: 0;
+    margin-top: 100px;
+    margin-left: 90px;
+}
+footer .conteneur .reseau_social{
+    display: flex;
+    margin-left: 30px;
+}
+.icon1{
+    width: 60px;
+    height: 60px;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+.icon2{
+    width: 60px;
+    height: 60px;
+    margin-top: 70px;
+    margin-left: 3px;
+}
+.icon3{
+    width: 60px;
+    height: 60px;
+    margin-top: 70px;
+    margin-left: 3px;
+}
+.icon4{
+    width: 60px;
+    height: 60px;
+    margin-top: 70px;
+    margin-left: 3px;
+}
+.footer .conteneur .lien{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 70px;
+    margin-left: 150px;
+    margin-bottom: 35px;
+}
+.footer .conteneur .contenant2 p{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 170px;
+    
+}
+.footer .conteneur .contactez{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+.footer .conteneur .contenant3 p{
+    width: 320px;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.footer .conteneur .contenant3 .email{
+    width: 318px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    background: rgba(0, 0, 0, 0.15);
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.footer .conteneur .contenant3 .email span{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.footer .conteneur .contenant3 .inscription{
+    width: 318px;
+    height: 40px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 10px;
+    background: #E98880;
+    margin-left: 30px;  
+    margin-top: 6px;  
+}
+.footer .conteneur .contenant3 .inscription span{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.trait_footer{
+    width: 238px;
+    height: 1px;
+    background: #000;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.footer .conteneur .adresse{
+    display: block;
+}
+.footer .conteneur .adresse .copy{
+    width: 24px;
+    height: 24px;
+    margin-top: 15px;
+    margin-left: 65px;
+}
+.footer .conteneur .adresse p{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.footer .conteneur .adresse .paragraphe1{
+    margin-top: -30px;
+    margin-left: 100px;
+}
+.footer .conteneur .adresse .paragraphe2{
+    margin-top: 8px;
+    margin-left: 110px;
+}
+.footer .conteneur .adresse .paragraphe3{
+    margin-top: 8px;
+    margin-left: 100px;
+}
 }
