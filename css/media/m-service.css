@@ -38,3 +38,953 @@ body {
     margin: 4em 0;
 
 }
+@media screen and (min-width:768px) and (max-width:1023px){
+    .header{
+        width: 100%;
+        height: 104px;
+    }
+    .header .navbar .menu_burger{
+        display: block;
+    }
+    .header .navbar .link{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        background-color:rgba(255, 255, 255, 0.20);
+        backdrop-filter: blur(6px);
+        width: 50%;
+        height: 50vh;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100%;
+        transition: all 0.5s ease;
+    }
+    .header .contact{
+        margin-top: 100px;
+        margin-left: 0px;
+        top: 190px;
+    }
+    .header .navbar a {
+        margin: 10px 0; /*Permet de mettre de l'espace entre les elts de a  en haut et sur les cotés*/
+        
+    }
+    .header .navbar .link.mobile-menu{
+        margin-left: 500px;
+    }
+    /*Section Banière*/
+.banière{
+    width: 100%;
+    height: 300px;
+    background: #FFF;
+    text-align: center;
+
+}
+.titre_banière{
+    color: #80B0DF;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-block;
+    margin-top: 123px;
+    margin-bottom: 10px;
+}
+.trait{
+    width: 100px;
+    height: 2px;
+    background: #6C131D;
+    margin-left: 365px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.paragraphe_banière{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 77px;
+}
+/*------------------------------------------*/
+/*Section Assistance*/
+.assistance{
+    width: 95%;
+    height: 260px; 
+    background-color: #F2F7FC;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 14px;
+}
+.boxe1{
+    width: 230px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url(../../images/service/assistance.jpg), lightgray 50% / cover no-repeat;
+    margin-top:13px;
+    margin-left: 40px;
+}
+.description_boxe1{
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.description_boxe1 .titre{
+    color: #000;
+    font-family: Inter;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 13px;
+}
+.description_boxe1 .paragraphe{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 20px;
+}
+.description_boxe1 .button{
+    width: 120px;
+    height: 30px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 10px;
+    background: #E98880;
+    margin-top: 45px;
+}
+.description_boxe1 .button span{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/*----------------------------------------------------------*/
+/*Section Aide*/
+.aide{
+    width: 95%;
+    height: 260px; 
+    background-color: #F2F7FC;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 14px;
+}
+
+.boxe2{
+    width: 230px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url(../../images/service/aide.jpg) , lightgray 50% / cover no-repeat;   
+    margin-top:13px;
+    margin-left: 40px;
+}
+.description_boxe2{
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.description_boxe2 .titre{
+    color: #000;
+    font-family: Inter;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 13px;
+}
+.description_boxe2 .paragraphe{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 20px;
+}
+.description_boxe2 .button{
+    width: 120px;
+    height: 30px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 10px;
+    background: #E98880;
+    margin-top: 45px;
+}
+.description_boxe2 .button span{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/*----------------------------------------------------------*/
+/*Section Orientation*/
+.orientation{
+    width: 95%;
+    height: 260px; 
+    background-color: #F2F7FC;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 14px;
+}
+.boxe3{
+    width: 230px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url(../../images/service/orientation.jpg), lightgray 50% / cover no-repeat;
+    margin-top:13px;
+    margin-left: 40px;
+}
+.description_boxe3{
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.description_boxe3 .titre{
+    color: #000;
+    font-family: Inter;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 13px;
+}
+.description_boxe3 .paragraphe{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 20px;
+}
+.description_boxe3 .button{
+    width: 120px;
+    height: 30px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 10px;
+    background: #E98880;
+    margin-top: 45px;
+}
+.description_boxe3 .button span{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/*----------------------------------------------------------*/
+/*Section Encadrement*/
+.encadrement{
+    width: 95%;
+    height: 260px; 
+    background-color: #F2F7FC;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 14px;
+}
+.boxe4{
+    width: 230px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url(../../images/service/encadrement.jpg), lightgray 50% / cover no-repeat;
+    margin-top:13px;
+    margin-left: 40px;
+    background-position: top;
+    background-position: 70%;
+}
+.description_boxe4{
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.description_boxe4 .titre{
+    color: #000;
+    font-family: Inter;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 13px;
+}
+.description_boxe4 .paragraphe{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 20px;
+}
+.description_boxe4 .button{
+    width: 120px;
+    height: 30px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 10px;
+    background: #E98880;
+    margin-top: 45px;
+}
+.description_boxe4 .button span{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/*----------------------------------------------------*/
+/*Section Footer*/
+.footer{
+    width: 100%;
+    height: 500px;
+    flex-shrink: 0;
+    background: #80B0DF;
+}
+.footer .conteneur{
+    width: 90%;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    margin-left: 34px;
+    padding-bottom: 39px;
+    margin-top: 30px;
+    display: inline-block;
+}
+.footer .conteneur .logo{
+    width: 120px;
+    height: 94px;
+    flex-shrink: 0;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+footer .conteneur .reseau_social{
+    display: flex;
+}
+.icon1{
+    width: 28px;
+    height: 28px;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+.icon2{
+    width: 28px;
+    height: 28px;
+    margin-top: 70px;
+    margin-left: 3px;
+}
+.icon3{
+    width: 28px;
+    height: 28px;
+    margin-top: 70px;
+    margin-left: 3px;
+}
+.icon4{
+    width: 28px;
+    height: 28px;
+    margin-top: 70px;
+    margin-left: 3px;
+}
+.footer .conteneur .lien{
+    width: 82px;
+    height: 18px;
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: -230px;
+    margin-left: 330px;
+    margin-bottom: 35px;
+}
+.footer .conteneur .contenant2 p{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 330px;
+    
+}
+.footer .conteneur .contactez{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: -212px;
+    margin-left: 500px;
+    margin-bottom: 35px;
+}
+.footer .conteneur .contenant3 p{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 500px;
+    margin-bottom: 30px;
+}
+.footer .conteneur .contenant3 .email{
+    width: 25%;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    background: rgba(0, 0, 0, 0.15);
+    margin-left: 500px;
+    margin-bottom: 8px;
+}
+.footer .conteneur .contenant3 .email span{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.footer .conteneur .contenant3 .inscription{
+    width: 100px;
+    height: 40px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 10px;
+    background: #E98880;
+    margin-left: 500px;    
+}
+.footer .conteneur .contenant3 .inscription span{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.trait_footer{
+    width: 90%;
+
+    height: 1px;
+    background: #000;
+    margin-left: 88px;
+    margin-top: 70px;
+}
+.footer .conteneur .adresse{
+    display: flex;
+}
+.footer .conteneur .adresse .copy{
+    width: 24px;
+    height: 24px;
+    margin-top: 26px;
+    margin-left: 65px;
+}
+.footer .conteneur .adresse p{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.footer .conteneur .adresse .paragraphe1{
+    margin-top: 30px;
+    margin-left: 5px;
+}
+.footer .conteneur .adresse .paragraphe2{
+    margin-top: 30px;
+    margin-left: 120px;
+}
+.footer .conteneur .adresse .paragraphe3{
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+    
+}
+/*Media mobile*/
+@media screen and (max-width:767px){
+    .header .navbar .menu_burger{
+        display: block;
+        justify-content:left;
+    }
+    .header .navbar .link{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        background-color:rgba(255, 255, 255, 0.20);
+        backdrop-filter: blur(6px);
+        width: 50%;
+        height: 50vh;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100%;
+        transition: all 0.5s ease;
+    }
+    .header .contact{
+        margin-top: 100px;
+        margin-left: 0px;
+        top: 190px;
+    }
+    .header .navbar a {
+        margin: 10px 0; /*Permet de mettre de l'espace entre les elts de a  en haut et sur les cotés*/
+        
+    }
+    .header .navbar .link.mobile-menu{
+        margin-left: 200px;
+    }
+    /*------------------------------------*/
+    /*Section Banière*/
+    .banière{
+        width: 100%;
+        background: #FFF;
+        text-align: center;
+    
+    }
+    .titre_banière{
+        color: #80B0DF;
+        font-family: Inter;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 48px;
+        margin-bottom: 3px;
+        text-align: center;
+    }
+    .trait{
+        width: 100px;
+        height: 2px;
+        background: #6C131D;
+        margin-left: 150px;
+        margin-top: 3px;
+        margin-bottom: 47px;
+    }
+    .paragraphe_banière{
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-top: 44px;
+    }
+    /*------------------------------------------*/
+    /*Section Assistance*/
+.assistance{
+    width: 80%;
+    display: block;
+}
+.boxe1{
+    width: 240px;
+    height: 225px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url(../../images/service/assistance.jpg), lightgray 50% / cover no-repeat;
+    margin-top:3px;
+    margin-left: 80px;
+    margin-bottom: 15px;
+}
+
+.description_boxe1 .titre{
+    color: #000;
+    font-family: Inknut Antiqua;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+    margin-bottom: 2px;
+    margin-left: 150px;
+}
+.description_boxe1 .paragraphe{
+    width: 260px;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.description_boxe1 .button{
+    width: 90px;
+    height: 25px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 12px;
+    background: #E98880;
+    margin-top: 45px;
+    margin-left: 150px;
+}
+.description_boxe1 .button span{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+/*----------------------------------------------------------*/
+/*Section Aide*/
+.aide{
+    width: 80%;
+    display: block;
+}
+.boxe2{
+    width: 240px;
+    height: 225px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url(../../images/service/aide.jpg), lightgray 50% / cover no-repeat;
+    margin-top:3px;
+    margin-left: 80px;
+    margin-bottom: 15px;
+}
+
+.description_boxe2 .titre{
+    color: #000;
+    font-family: Inknut Antiqua;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+    margin-bottom: 2px;
+    margin-left: 150px;
+}
+.description_boxe2 .paragraphe{
+    width: 260px;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.description_boxe2 .button{
+    width: 90px;
+    height: 25px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 12px;
+    background: #E98880;
+    margin-top: 45px;
+    margin-left: 150px;
+}
+.description_boxe2 .button span{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+/*----------------------------------------------------------*/
+/*Section Orientation*/
+.orientation{
+    width: 80%;
+    display: block;
+}
+.boxe3{
+    width: 240px;
+    height: 225px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url(../../images/service/orientation.jpg), lightgray 50% / cover no-repeat;
+    margin-top:3px;
+    margin-left: 80px;
+    margin-bottom: 15px;
+}
+
+.description_boxe3 .titre{
+    color: #000;
+    font-family: Inknut Antiqua;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+    margin-bottom: 2px;
+    margin-left: 150px;
+}
+.description_boxe3 .paragraphe{
+    width: 260px;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.description_boxe3 .button{
+    width: 90px;
+    height: 25px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 12px;
+    background: #E98880;
+    margin-top: 45px;
+    margin-left: 150px;
+}
+.description_boxe3 .button span{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+/*----------------------------------------------------------*/
+/*Section Encadrement*/
+.encadrement{
+    width: 80%;
+    display: block;
+}
+.boxe4{
+    width: 240px;
+    height: 225px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url(../../images/service/encadrement.jpg), lightgray 50% / cover no-repeat;
+    margin-top:3px;
+    margin-left: 80px;
+    margin-bottom: 15px;
+    background-position: top;
+    background-position: 70%;
+}
+
+.description_boxe4 .titre{
+    color: #000;
+    font-family: Inknut Antiqua;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+    margin-bottom: 2px;
+    margin-left: 150px;
+}
+.description_boxe4 .paragraphe{
+    width: 260px;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.description_boxe4 .button{
+    width: 90px;
+    height: 25px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 12px;
+    background: #E98880;
+    margin-top: 45px;
+    margin-left: 150px;
+    margin-bottom: 60px;
+}
+.description_boxe4 .button span{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+/*----------------------------------------------------------*/
+/*Section Footer*/
+.footer{
+    width: 100%;
+    height: 1165px;
+    flex-shrink: 0;
+    background: #80B0DF;
+}
+.footer .conteneur{
+    width: 94%;
+    height: 1066px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    margin-left: 12px;
+    padding-bottom: 39px;
+    margin-top: 30px;
+    display: inline-block;
+}
+.footer .conteneur .logo{
+    width: 200px;
+    height: 110x;
+    flex-shrink: 0;
+    margin-top: 100px;
+    margin-left: 90px;
+}
+footer .conteneur .reseau_social{
+    display: flex;
+    margin-left: 30px;
+}
+.icon1{
+    width: 60px;
+    height: 60px;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+.icon2{
+    width: 60px;
+    height: 60px;
+    margin-top: 70px;
+    margin-left: 3px;
+}
+.icon3{
+    width: 60px;
+    height: 60px;
+    margin-top: 70px;
+    margin-left: 3px;
+}
+.icon4{
+    width: 60px;
+    height: 60px;
+    margin-top: 70px;
+    margin-left: 3px;
+}
+.footer .conteneur .lien{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 70px;
+    margin-left: 150px;
+    margin-bottom: 35px;
+}
+.footer .conteneur .contenant2 p{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 170px;
+    
+}
+.footer .conteneur .contactez{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+.footer .conteneur .contenant3 p{
+    width: 320px;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.footer .conteneur .contenant3 .email{
+    width: 318px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    background: rgba(0, 0, 0, 0.15);
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.footer .conteneur .contenant3 .email span{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.footer .conteneur .contenant3 .inscription{
+    width: 318px;
+    height: 40px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 10px;
+    background: #E98880;
+    margin-left: 30px;  
+    margin-top: 6px;  
+}
+.footer .conteneur .contenant3 .inscription span{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.trait_footer{
+    width: 238px;
+    height: 1px;
+    background: #000;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.footer .conteneur .adresse{
+    display: block;
+}
+.footer .conteneur .adresse .copy{
+    width: 24px;
+    height: 24px;
+    margin-top: 15px;
+    margin-left: 65px;
+}
+.footer .conteneur .adresse p{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.footer .conteneur .adresse .paragraphe1{
+    margin-top: -30px;
+    margin-left: 100px;
+}
+.footer .conteneur .adresse .paragraphe2{
+    margin-top: 8px;
+    margin-left: 110px;
+}
+.footer .conteneur .adresse .paragraphe3{
+    margin-top: 8px;
+    margin-left: 100px;
+}
+}
